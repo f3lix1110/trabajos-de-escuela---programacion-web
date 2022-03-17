@@ -1,0 +1,60 @@
+         <html>
+                        <head><title>Paginas web</title>
+                        
+                        <script src="js/jquery-3.3.1.min.js" > </script>
+
+                        <script>
+
+                        function elimina(nfila){
+                            
+                         $('.fila_'+nfila).hide();}
+                        
+                        </script> </head>
+
+    
+                        <body>
+                        
+                        <table border="4" align="center">
+                                            <!--el align="center" sera para alinear todo en el centro-->  
+                       <!-- colspan sera para el numero de columnas que se desean combinar-->
+                        <th colspan="3">Listado de paginas web</th> <!--th sera para cuando solo se desee añadir texto-->
+                        <!-- colspan se usara para unificar la primera fla con las demas columnas "3" numero de columnas-->
+
+                     <!--la clase sera para definir o especificar la fila-->
+                        <tr class="fila_1" align="center"> <!-- tr es para hacer las filas y dentro añadiremos las columnas en ella "td"-->
+                         <!--td sera para las columnas-->   
+                        <td><img src="Imagenes/LogoYoutube.png" alt="Youtube" width="100" /></td>
+                        <td>  <a target="_blank" href="http://www.youtube.com"> www.youtube.com </a>  </a> </td>  
+                        <td>  <input onclick="elimina(1);" type="submit" value="Eliminar" ></td>
+                            <!-- SOLAMENTE SE AÑADIRA UNA COLUMNA MAS "TD" Y SE AÑADIRA ESTA LINEA PARA EL BOTON-->
+                        </tr>
+                        
+                        <tr class ="fila_2" align="center">
+                        <td> <img src="Imagenes/Netflixlogo.png" alt="Netflix" width="100" /> </td>
+                        <td>  <a target="_blank" href="http://www.netflix.com"> www.netflix.com </a>   </td>
+                        <td> <input onclick="elimina(2);" type="submit" value="Eliminar" /> </td>
+                        </tr>
+
+                        <tr class ="fila_3" align="center">
+                        <td> <img src="Imagenes/TaringaLogo.jpg" alt="Taringa" width="100" /> </td>
+                        <td>  <a target="_blank" href="http://www.taringa.net"> www.taringa.net </a>     </td>
+                        <td> <input onclick="elimina(3);" type="submit" value="Eliminar" /> </td>
+                        </tr>
+
+                        <tr class ="fila_4" align="center">
+                        <td> <img src="Imagenes/UnoceroLogo.jpg" alt="Unocero" width="100" /> </td>
+                        <td>  <a target="_blank" href="http://www.unocero.com" > www.unocero.com </a>     </td>
+                        <td> <input onclick="elimina(4);" type="submit" value="Eliminar" /> </td>
+                        </tr>
+
+                        <tr class ="fila_5" align="center">
+                        <td> <img src="Imagenes/logossiiau.jpg" alt="SIIAU" width="200" /> </td>
+                        <td> <a target="_blank" href="http://www.udg.mx"> www.udg.mx </a>      </td>
+                        <td> <input onclick="elimina(5);" type="submit" value="Eliminar" /> </td>
+                        </tr>
+    
+                        </table>
+                        
+                        
+                        </body>
+         </html>

@@ -1,0 +1,29 @@
+.calculadora{
+	display:block;
+	margin:0 auto;
+	padding: 20px;
+	background-color:#bea223;
+	width:345px;
+	height:500px;
+	border-radius: 15px;
+}
+.calculadora td button{
+	display:block;
+	width: 60px;
+	height: 70px;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+#resultado{
+	display:block;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 50px;
+	width:300px;
+	height: 100px;
+	line-height: 100px;
+	background-color:rgb(219, 209, 209);
+	border-radius: 15px;
+	/*overflow-y: scroll;*/
+}

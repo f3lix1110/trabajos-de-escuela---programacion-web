@@ -1,0 +1,72 @@
+<html>
+
+    <head>
+        <title>	Jquery </title>	
+    
+    <style>  
+        
+       /*#mensaje {                 estilos:
+            color:#FF0;
+            font-size:15px;
+            font-weight:bold;
+            width:100px;
+            height:15px;
+            background-color: #ccc;
+            text-align: center;
+       } 
+        */
+        .alumno {
+            color: #00F
+            line-height:22px;
+        }
+        
+    
+    </style>
+        
+    <script src="js/jquery-3.3.1.min.js"></script>
+    
+    <script>
+    
+    function muestra() {
+        //var user ==document.forma01.nombre.value;       
+        var user = $('#nombre').val();    //con el id nombre .val()->jala la informacion, val(modifica el atributo val)
+        alert(user);
+    }
+        
+    function elimina() {
+        $('.alumno').hide();   // ocultar la clase alumno
+  // $('#mensaje').html('Eliminado...');
+       $('#mensaje').html('<img src="Imagen/loading.gif" />');
+        setTimeout("$('#mensaje)').html('')",3000); // tiempo de espera para el mensaje dado al eliminar
+    }
+        
+    </script>
+    
+
+    </head>
+
+<body>
+    
+    <!--get muestra datos del url, post esconde el contenido-->
+    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu usuario"/><br>
+	<input type="text" name="correo" id="correo" value="@" /><br>
+	<select name="rol" id="rol">
+	  <option value="0">Selecciona</option>
+	  <option value="1">Administrador</option>
+	  <option value="2">Usuario</option>
+	</select><br>
+	<input onclick="muestra();" type="submit" value="Enviar" />
+                 
+    <br>
+    <br>
+    <div class="alumno">Felix Hernandez</div>
+    <div class="alumno">Aaron Jimenez</div>
+    <div class="alumno">Marisela Guzman</div>
+   <!--- <div class="maestro" id="maestro">Patricia Lopez</div> -->
+    <input onclick="elimina();" type="submit" value="Eliminar" /><br>
+    <div id="mensaje"></div>
+    
+</body>
+
+
+</html>

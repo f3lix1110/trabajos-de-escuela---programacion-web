@@ -1,0 +1,176 @@
+.tabla{
+
+background-color: aqua;
+display: table;
+border: medium #C0C0C0 solid;
+width: 100%; 
+height: 100%;
+    
+}
+
+/*  COLUMNA1----------------------------------------------------------------------------------------------------- */
+.tablacompleta_columna1{
+    
+display: table-cell;
+border: medium rgb(95, 34, 34) solid;
+width: 50%;    
+}
+
+/*  TABLA 1----------------------------------------------------------------------------------------------------- */
+.minitabla1{
+
+background-color: aquamarine;
+display: table;
+border: medium #000 solid;
+width: 99%;  
+height: 50%;  
+}
+
+.fila1_minitabla1{
+
+background-color: slateblue;
+border: 2px dotted #000;
+width: 99.3%; 
+height: 15%;
+}
+
+.columna1_minitabla1{
+
+background-color: orangered;
+display: table-cell;
+border: 2px dotted #000;
+width: 70;
+height: 230;
+}
+
+.columna2_minitabla1{
+
+display: table-cell;
+border: 2px dotted #000;
+width: 533;
+    
+}
+
+/*  TABLA 2----------------------------------------------------------------------------------------------------- */
+.minitabla2{
+
+background-color: olive;
+display: table;
+border: medium #000 solid;
+width: 99%;  
+height: 48%;  
+
+}
+
+.columna1_minitabla2{
+
+background-color: rgb(112, 19, 9);
+display: table-cell;
+border: 2px dotted #000;
+width: 20%;
+}
+    
+.fila1_minitabla2{
+
+background-color: bisque;
+border: 2px dotted #000;
+width: 500; 
+height: 90;
+}
+
+.fila2_minitabla2{
+
+border: 2px dotted #000;
+width: 500; 
+height: 170;
+}
+
+/*  COLUMNA2----------------------------------------------------------------------------------------------------- */
+.tablacompleta_columna2{
+    
+display: table-cell;
+border: medium rgb(95, 19, 19) solid;
+width: auto;  
+}
+
+/*  TABLA 3----------------------------------------------------------------------------------------------------- */
+.minitabla3{
+
+background-color: darkmagenta; 
+display: table;
+border: medium #C0C0C0 solid;
+width: 100%;  
+height: 50%;
+}
+
+.fila1_minitabla3{
+border: 2px dotted #000;
+width: 99%;
+height: 15%;
+}
+    
+.columna1_minitabla3{
+
+background-color: salmon;
+display: table-cell;
+border: 2px dotted #000;
+width: 303;
+height: 185;
+}
+    
+.columna2_minitabla3{
+
+background-color: rgb(44, 167, 81);  
+display: table-cell;
+border: 2px dotted #000;
+width: 303;
+height: auto;  
+}
+
+.fila3_minitabla3{
+border: 2px dotted #000;
+width: auto;
+height: 15%;
+}
+
+/*  TABLA 4-------------------------------------------------------------------------------------------------------*/
+.minitabla4{
+    
+display: table;
+border: medium #000 solid;
+width: 99%;
+height: 48%     
+}
+
+.columna1_minitabla4{
+background-color: palevioletred;
+display: table-cell;
+border: 2px dotted #000;
+width: 303;
+height: 133;
+}
+        
+.columna2_minitabla4{
+        
+display: table-cell;
+border: 2px dotted #000;
+width: 303;    
+height: auto;        
+}
+
+.columna3_minitabla4{
+
+display: table-cell;
+border: 2px dotted #000;
+width: 303;
+height: 133;
+}
+            
+.columna4_minitabla4{
+            
+background-color: palevioletred;
+display: table-cell;
+border: 2px dotted #000;
+width: 303;   
+height: auto;             
+}

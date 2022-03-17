@@ -1,0 +1,52 @@
+
+body{  /* body sera para editar todo lo general  */
+background-color: #C0C0C0;
+font-family: Arial;
+}
+
+#fila1{
+    display: table;
+    width: 80%;
+    border: solid 2px black;
+}
+
+#fila2{
+    display: table;
+    width: 80%;
+    border: solid 2px black;
+}
+#fila3{
+    display: table;
+    width: 80%;
+    border: solid 2px black;
+}
+#fila4{
+    display: table;
+    width: 80%;
+    border: solid 2px black;
+}
+#fila5{
+    display: table;
+    width: 80%;
+    border: solid 2px black;
+}
+
+
+.columna1{ 
+display: table-cell; /*con esto especificamos que sera una columna*/
+border: solid 2px rgb(95, 14, 14); 
+width: 30%;
+}
+
+
+.columna2{
+display: table-cell;
+border: solid 2px rgb(95, 14, 14);
+width: 30%;
+}
+
+.columna3{
+display: table-cell;
+border: solid 2px rgb(95, 14, 14);
+width: 30%;
+}

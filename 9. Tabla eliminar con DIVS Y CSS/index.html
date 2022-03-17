@@ -1,0 +1,67 @@
+         <html>
+                        <head><title>Paginas web</title>
+                        
+                        <script src="js/jquery-3.3.1.min.js" > </script>
+
+                        <script>
+
+                        function elimina(nfila){
+
+                        $('#fila'+nfila).hide();}
+                               
+                        </script>  <link rel="stylesheet"  href="estilo.css"> </head>
+                                <!--referenciamos para enlazar y diseñar con css en el archivo estilo.css-->
+    
+                        <body>
+                        
+                            <!--le asignaremos un id a la tabla-->
+                    <div id="table" align="center"> PAGINAS WEB:
+
+                        <div id="fila1" class="fila_uno"> 
+
+                        <div class="columna1"> <img src="Imagenes/LogoYoutube.png" alt="Youtube" width="100" /> </div>
+                        <div class="columna2"> <a target="_blank" href="http://www.youtube.com"> www.youtube.com </a> </div>
+                        <div class="columna3"> <input onclick="elimina(1);" type="submit" value="Eliminar" > </div>
+
+                        </div> <!--fila 1-->
+
+
+                        <div id="fila2" class="fila_dos"> 
+
+                        <div class="columna1"> <img src="Imagenes/Netflixlogo.png" alt="Netflix" width="100" /> </div>
+                        <div class="columna2"> <a target="_blank" href="http://www.netflix.com"> www.netflix.com </a> </div>
+                        <div class="columna3"> <input onclick="elimina(2);" type="submit" value="Eliminar" /> </div>
+        
+                        </div> <!--fila 2-->
+
+
+                        <div id="fila3" class="fila_tres"> 
+
+                        <div class="columna1"> <img src="Imagenes/TaringaLogo.jpg" alt="Taringa" width="100" /> </div>
+                        <div class="columna2"> <a target="_blank" href="http://www.taringa.net"> www.taringa.net </a> </div>
+                        <div class="columna3"> <input onclick="elimina(3);" type="submit" value="Eliminar" > </div>
+        
+                        </div> <!--fila 3-->
+
+
+                        <div id="fila4" class="fila_cuatro"> 
+
+                        <div class="columna1"> <img src="Imagenes/UnoceroLogo.jpg" alt="Unocero" width="100" /> </div>
+                        <div class="columna2"> <a target="_blank" href="http://www.unocero.com" > www.unocero.com </a> </div>
+                        <div class="columna3"> <input onclick="elimina(4);" type="submit" value="Eliminar" > </div>
+                
+                         </div> <!--fila 4-->
+
+                        <div id="fila5" class="fila_cinco"> 
+
+                        <div class="columna1"> <img src="Imagenes/logossiiau.jpg" alt="SIIAU" width="200" /> </div>
+                        <div class="columna2"> <a target="_blank" href="http://www.udg.mx"> www.udg.mx </a> </div>
+                        <div class="columna3"> <input onclick="elimina(5);" type="submit" value="Eliminar" > </div>
+                
+                        </div> <!--fila 5-->                         
+                        
+                    </div> <!--TABLA-->
+                        
+                        
+                        </body>
+         </html>
